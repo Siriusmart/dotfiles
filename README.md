@@ -1,4 +1,3 @@
-
 ## Basic description
 
 - This is my daily driver, running Arch with Hyprland + Waybar.
@@ -39,6 +38,7 @@ Here's everything that has been modified:
 ### Kitty
 
 - Cool dark theme with JetBrains Mono (NerdFont).
+- Full nord colors, from [connorholyday](https://github.com/connorholyday/nord-kitty/tree/master).
 
 ### Kvantum
 
@@ -48,6 +48,10 @@ Here's everything that has been modified:
 
 - Ahh yes, we can be here all day.
 - But mostly, it is just a comfortable setup with Colemak-friendly keybindings.
+
+### Neofetch
+
+- Minimal neofetch theme from [Chick2D](https://github.com/Chick2D/neofetch-themes).
 
 ### Rofi
 
@@ -61,9 +65,14 @@ Here's everything that has been modified:
 
 - Minimal config without a background: modified version of [Pigshag](https://github.com/Pipshag/dotfiles_nord)'s dotfiles.
 
+### YouTube TUI
+
+- Full nord colours.
+
 ### Zathura
 
 - Recolours all PDFs to dark background for my eyes.
+- Full nord colours.
 
 ### Zsh
 
