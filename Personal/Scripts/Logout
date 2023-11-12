@@ -1,0 +1,2 @@
+#!/usr/bin/zsh
+hyprctl dispatch exit

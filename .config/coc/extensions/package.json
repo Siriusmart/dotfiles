@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "coc-marketplace": ">=1.9.0",
+    "coc-emmet": ">=1.1.6",
+    "coc-yaml": ">=1.9.0",
+    "coc-json": ">=1.9.2",
+    "coc-rust-analyzer": ">=0.75.0",
+    "coc-lua": ">=2.0.5",
+    "coc-toml": ">=1.2.5",
+    "coc-tsserver": ">=2.1.4",
+    "coc-prettier": ">=9.3.2",
+    "coc-vimtex": ">=1.1.5",
+    "coc-clangd": ">=0.29.3",
+    "coc-sh": ">=1.2.0"
+  }
+}

@@ -1,0 +1,18 @@
+#!/bin/zsh
+
+word=$(rofi -dmenu -i -p "Dictionary: ")
+
+while true; do
+    if [[ -z "$word" ]]; then
+        exit 0
+    fi
+
+    output=$(sdcv $word | awk '/-->/ {flag=1; next} flag' | sed 's/&/&amp;/g' | head -n 50) 
+    output=$(printf '%s' "$output" | awk '{gsub(/^[ \t\n]+|[ \t\n]+$/, "");print}')
+
+    if [[ -z "$output" ]]; then
+        output="Word not found."
+    fi
+
+    word=$(rofi -dmenu -i -p "Dictionary: " -mesg-command "cat" -mesg "$output")
+done

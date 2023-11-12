@@ -1,0 +1,2 @@
+#!/usr/bin/zsh
+xdg-open ~/Personal/Stash/ptable.png

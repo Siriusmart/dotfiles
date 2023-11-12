@@ -1,0 +1,13 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/siriusmart/.local/share/nvim/lazy/telescope.nvim
+- /home/siriusmart/.local/share/nvim/lazy/nvim-tree.lua
+- /home/siriusmart/.local/share/nvim/lazy/coc.nvim
+- /home/siriusmart/Personal/Coding/Forks/tldr
+- /home/siriusmart/Personal/Coding/Rust/feedscraper
+- /home/siriusmart/Personal/Coding/Rust/scrapyard
+- /home/siriusmart/Personal/Coding/Node/nodejs-rss-scrapers
+startuppopupversion: 5
+customcommandshistory: []
+hidecommandlog: false
+ignorewhitespaceindiffview: false

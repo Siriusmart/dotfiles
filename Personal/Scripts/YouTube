@@ -1,0 +1,2 @@
+#!/usr/bin/zsh
+firefox 'https://youtube.com'
