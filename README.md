@@ -1,8 +1,11 @@
+
 ## Basic description
 
 - This is my daily driver, running Arch with Hyprland + Waybar.
 - Idles (after boot) with ~500MB memory usage, and 0% CPU like any systems should.
 - Mainly Nord, but also include darker colours I made up which are not part of the Nord palette.
+
+![](./screenshot.png)
 
 Here's everything that has been modified:
 
