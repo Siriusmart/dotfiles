@@ -61,6 +61,10 @@ Here's everything that has been modified:
 
 - Contains a theme called "nordic" even though it is from [catppuccin](https://github.com/catppuccin/sddm).
 
+### Swaylock
+
+- Minimalistic dark Nordic theme.
+
 ### Waybar
 
 - Minimal config without a background: modified version of [Pigshag](https://github.com/Pipshag/dotfiles_nord)'s dotfiles.
