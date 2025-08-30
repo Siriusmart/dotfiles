@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Blackmagic RAW Speed Test
+Path=/opt/resolve/BlackmagicRAWSpeedTest
+Exec=/opt/resolve/BlackmagicRAWSpeedTest/BlackmagicRAWSpeedTest  %f
+Icon=blackmagicraw-speedtest
+Terminal=false
+Categories=Video

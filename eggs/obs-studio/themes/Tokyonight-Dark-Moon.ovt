@@ -1,0 +1,83 @@
+@OBSThemeMeta {
+    name: 'Tokyonight Dark Moon';
+    id: 'com.obsproject.Yami.Tokyonight-Dark-Moon';
+    extends: 'com.obsproject.Yami';
+    author: 'Warchamp7';
+    dark: 'true';
+}
+
+@OBSThemeVars {
+    --blue1: #82aaff;
+    --blue2: #34435c;
+    --blue3: #589ed7;
+    --blue4: #b4f9f8;
+    --blue5: #394b70;
+
+    --red1: #ff757f;
+    --red2: #ff757f;
+    --red3: #ff757f;
+    --red4: #ff757f;
+    --red5: #ff757f;
+
+    --pink1: #c53b53;
+    --pink2: #c53b53;
+    --pink3: #c53b53;
+    --pink4: #c53b53;
+    --pink5: #c53b53;
+
+    --teal1: #86e1fc;
+    --teal2: #86e1fc;
+    --teal3: #86e1fc;
+    --teal4: #86e1fc;
+    --teal5: #86e1fc;
+
+    --purple1: #fca7ea;
+    --purple2: #fca7ea;
+    --purple3: #fca7ea;
+    --purple4: #fca7ea;
+    --purple5: #fca7ea;
+
+    --green1: #c3e88d;
+    --green2: #c3e88d;
+    --green3: #c3e88d;
+    --green4: #c3e88d;
+    --green5: #c3e88d;
+
+    --yellow1: #ffc777;
+    --yellow2: #ffc777;
+    --yellow3: #ffc777;
+    --yellow4: #ffc777;
+    --yellow5: #ffc777;
+
+    --grey1: #212335;
+    --grey2: #3a3c4a;
+    --grey3: #313342;
+    --grey4: #212335;
+    --grey5: #212335;
+    --grey6: #1a1c2d;
+    --grey7: #121426;
+    --grey8: #0b0d1b;
+
+    --white1: #e9e9ed;
+    --white2: #e9e9ed;
+    --white3: #e9e9ed;
+    --white4: #e9e9ed;
+    --white5: #e9e9ed;
+
+    --black1: #0b0d15;
+    --black2: #0b0d15;
+    --black3: #0b0d15;
+    --black4: #0b0d15;
+    --black5: #0b0d15;
+
+    --button_bg_down: var(--grey2);
+    --font_base_value: 12;
+}
+
+QMenu {
+    background-color: var(--grey7);
+}
+
+QWidget {
+    font-family: 'Adwaita Sans';
+}

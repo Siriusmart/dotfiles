@@ -12,5 +12,35 @@ export let eggs = #{
 	    post_deploy: "rm ~/.config/zsh/.zshenv.entry"
 	},
 	main_file: ".zshrc"
-    }
+    },
+    hypr: #{
+        targets: "~/.config/hypr"
+    },
+    rofi: "~/.config/rofi",
+    kitty: #{
+        targets: "~/.config/kitty"
+    },
+    wlogout: #{
+        targets: "~/.config/wlogout"
+    },
+    nvim: #{
+        targets: "~/.config/nvim"
+    },
+	"obs-studio": #{
+		targets: #{
+			"themes": "~/.config/obs-studio/themes"
+		}
+	},
+	zathura: #{
+		targets: "~/.config/zathura"
+	},
+	"youtube-tui": #{
+		targets: "~/.config/youtube-tui"
+	},
+	Thunar: #{
+		targets: "~/.config/Thunar"
+	},
+	btop: #{
+		targets: "~/.config/btop"
+	}
 };
