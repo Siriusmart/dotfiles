@@ -2,6 +2,18 @@
 
 My laptop screen is really inaccurate in terms of colours, since I did the config on it, the actual colours on screen are more muted than it is.
 
+## Setup
+
+Currently, its a "go figure it out yourself" dotfiles repo. However, you can use `yolk` to quickly put most of the stuff in the right place.
+1. Set up rust.
+2. `cargo install yolk_dots`
+3. Git clone this repo to `~/.config/yolk`, make sure the branch is correct.
+4. `yolk sync`
+
+Then
+- If you are using `rofi`, run the post deploy script at `~/.config/rofi/post_deploy.sh`
+- If you are running `davinci-resolve`, copy the files in `~/.config/yolk/extra/applications` to `/usr/share/applications` because the AUR package used the wrong icon names.
+
 ![](./preview.png)
 
 ## Apps with theme
@@ -21,6 +33,7 @@ My laptop screen is really inaccurate in terms of colours, since I did the confi
 - `noto-fonts`
 - `mpv`
 - `qt5-wayland`, `qt6ct`
+- `papirus-icon-theme`
 
 ## Recommended (without theme)
 - `thunar`
