@@ -18,7 +18,7 @@ Then
 
 ## Apps with theme
 - `btop`
-- `hyprland`
+- `hyprland` (requires `wayfreeze`)
 - `hyprlock`
 - `obs-studio` (with `pipewire-pulse` as dep)
 - `kitty`
@@ -26,6 +26,7 @@ Then
 - `zathura`
 - `rofi-wayland`, `rofi-calc`
 - `wlogout`
+- `nvim` (lspconfig is set up for a bunch of lsps, such as `lua-language-server` and `clangd` (part of the `clang` package)
 
 ## Dependencies for a lot of stuff
 - `bc`

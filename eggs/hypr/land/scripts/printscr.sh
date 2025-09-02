@@ -12,8 +12,8 @@ then
 else
 	if [ $2 == save ]
 	then
-		slurp | grim -g -  $(xdg-user-dir PICTURES)/Screenshots/$(date +'%s.png')
+        wayfreeze --after-freeze-cmd 'grim -g "$(slurp)"  $(xdg-user-dir PICTURES)/Screenshots/$(date +"%s.png"); killall wayfreeze'
 	else
-		slurp | grim -g - - | wl-copy
+        wayfreeze --after-freeze-cmd 'grim -g "$(slurp)" - | wl-copy; killall wayfreeze'
 	fi
 fi

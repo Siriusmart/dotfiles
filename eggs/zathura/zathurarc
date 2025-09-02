@@ -2,6 +2,9 @@
 # Allow recolor
 set recolor 'true'
 
+# copy to system clipboard
+set selection-clipboard clipboard
+
 # Don't allow original hue when recoloring
 set recolor-keephue 'true'
 
@@ -71,3 +74,8 @@ set index-bg '000000'
 # Selected element in index mode
 # set index-active-fg '000000'
 set index-active-bg ''
+
+map n scroll left
+map e scroll down
+map i scroll up
+map o scroll right
