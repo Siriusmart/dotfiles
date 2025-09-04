@@ -16,7 +16,7 @@ vim.opt.wrap = false
 -- vim.opt.spell = true
 
 -- use 24bit color
-vim.opt.termguicolors = false
+vim.opt.termguicolors = true
 
 -- tab size stuff
 vim.opt.expandtab = true
@@ -29,7 +29,7 @@ vim.opt.virtualedit = "block"
 vim.opt.clipboard = "unnamedplus"
 
 -- keep cursor in middle
--- vim.opt.scrolloff = 2
+vim.opt.scrolloff = 999
 
 -- preview changes in split
 vim.opt.inccommand = "split"
@@ -39,3 +39,5 @@ vim.opt.ignorecase = true
 
 -- leader key
 vim.g.mapleader = " "
+
+vim.diagnostic.enable = true

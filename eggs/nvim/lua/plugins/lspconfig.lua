@@ -4,12 +4,9 @@ return {
         local lspconfig = require("lspconfig")
         lspconfig.clangd.setup({})
         lspconfig.lua_ls.setup({})
-
-        vim.diagnostic.enable = true
-        --[[
-        vim.diagnostic.config({
-            virtual_lines = true,
-        })
-        --]]
+        lspconfig.jdtls.setup({})
+        lspconfig.rust_analyzer.setup({})
+        lspconfig.ts_ls.setup({})
+        lspconfig.gopls.setup({})
     end
 }
