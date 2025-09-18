@@ -24,9 +24,10 @@ Then
 - `kitty`
 - `zsh` (requires `ttf-jetbrains-mono-nerd`, `zoxide` and `fzf`)
 - `zathura`
-- `rofi-wayland`, `rofi-calc`
+- `rofi`, `rofi-calc`
 - `wlogout`
 - `nvim` (lspconfig is set up for a bunch of lsps, such as `lua-language-server` and `clangd` (part of the `clang` package), `jdtls`)
+- `eww` (depends on libdbusmenu-gtk3)
 
 ## Dependencies for a lot of stuff
 - `bc`

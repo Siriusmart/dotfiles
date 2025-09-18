@@ -20,8 +20,8 @@ vim.keymap.set({ "n", "v" }, "k", "N", { desc = "previous search entry" })
 vim.keymap.set("n", "y", "o", { desc = "new line after" })
 vim.keymap.set("n", "Y", "O", { desc = "new line before" })
 
-vim.keymap.set("n", "u", "i", { desc = "insert before" })
-vim.keymap.set("n", "U", "I", { desc = "insert before line" })
+vim.keymap.set({ "n", "v" }, "u", "i", { desc = "insert before" })
+vim.keymap.set({ "n", "v" }, "U", "I", { desc = "insert before line" })
 
 vim.keymap.set("v", "j", "y", { desc = "yank selected" })
 vim.keymap.set("n", "j", "yy", { desc = "yank line" })

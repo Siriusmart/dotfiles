@@ -29,6 +29,10 @@ return {
                         ["n"] = "navigate_up",
                         ["o"] = "set_root",
 
+                        ["H"] = "noop",
+                        ["h"] = "toggle_hidden",
+                        ["t"] = "noop",
+                        ["<C-t>"] = "open_tabnew",
                         ["oc"] = "noop",
                         ["od"] = "noop",
                         ["og"] = "noop",

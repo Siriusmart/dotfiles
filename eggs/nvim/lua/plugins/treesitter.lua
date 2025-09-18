@@ -5,6 +5,8 @@ return {
     lazy = false,
     build = ":TSUpdate",
 
+    dependencies = { "OXY2DEV/markview.nvim" },
+
     config = function ()
         require('nvim-treesitter.configs').setup {
             ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline" },

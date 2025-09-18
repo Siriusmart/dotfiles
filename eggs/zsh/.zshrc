@@ -1,3 +1,5 @@
+alias neofetch=fastfetch
+
 # History
 PATH=$PATH:~/.cargo/bin
 HISTFILE=~/.config/zsh/.zsh_history
