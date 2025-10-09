@@ -65,3 +65,6 @@ vim.keymap.set("n", "tn", "<C-W>h", { desc = "move split focus left" })
 vim.keymap.set("n", "te", "<C-W>j", { desc = "move split focus down" })
 vim.keymap.set("n", "ti", "<C-W>k", { desc = "move split focus up" })
 vim.keymap.set("n", "to", "<C-W>l", { desc = "move split focus right" })
+
+vim.keymap.set('n', '<bs>', ':bprevious<cr>', { silent = true })
+vim.keymap.set('n', '<S-bs>', ':bnext<cr>', { silent = true })

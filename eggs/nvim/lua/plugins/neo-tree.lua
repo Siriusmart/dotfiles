@@ -20,6 +20,18 @@ return {
         end)
 
         require("neo-tree").setup({
+            close_if_last_window = false,
+            window = {
+                mappings = {
+                    ["oc"] = "noop",
+                    ["od"] = "noop",
+                    ["og"] = "noop",
+                    ["om"] = "noop",
+                    ["on"] = "noop",
+                    ["os"] = "noop",
+                    ["ot"] = "noop",
+                },
+            },
             filesystem = {
                 window = {
                     mappings = {

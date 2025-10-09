@@ -1,4 +1,5 @@
 alias neofetch=fastfetch
+alias ls="ls --color"
 
 # History
 PATH=$PATH:~/.cargo/bin
@@ -58,6 +59,7 @@ bindkey '^o' forward-word
 # [Ctrl-LeftArrow] - move backward one word
 bindkey '^[[1;5D' backward-word
 bindkey '^n' backward-word
+bindkey "^H" backward-delete-word
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"

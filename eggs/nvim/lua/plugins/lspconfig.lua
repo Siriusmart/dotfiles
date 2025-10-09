@@ -8,6 +8,10 @@ return {
         vim.lsp.enable("ts_ls")
         vim.lsp.enable("gopls")
         vim.lsp.enable("texlab")
+        vim.lsp.enable("pyright")
+        vim.lsp.enable("jsonls")
+        vim.lsp.enable("html")
+        vim.lsp.enable("cssls")
         vim.lsp.config("texlab", {
             settings = {
                 texlab = {

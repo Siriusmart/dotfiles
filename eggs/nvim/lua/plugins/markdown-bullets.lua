@@ -1,4 +1,4 @@
 return {
     'Siriusmart/bullets.vim',
-    event = "VeryLazy"
+    filetype = { "markdown" },
 }

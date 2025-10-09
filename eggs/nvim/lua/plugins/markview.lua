@@ -10,6 +10,7 @@ return {
         entries.lor = "∨"
         entries.implies = "⇒"
         entries.iff = "⇔"
+        entries.emptyset = "∅"
 
         require("markview").setup({
             preview = {

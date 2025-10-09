@@ -33,14 +33,14 @@ return {
                     lookahead = true,
 
                     keymaps = {
-                        ["of"] = "@function.outer",
-                        ["if"] = "@function.inner",
-                        ["oc"] = "@class.outer",
+                        ["<Leader>of"] = "@function.outer",
+                        ["<Leader>if"] = "@function.inner",
+                        ["<Leader>oc"] = "@class.outer",
                         -- You can optionally set descriptions to the mappings (used in the desc parameter of
                         -- nvim_buf_set_keymap) which plugins like which-key display
-                        ["ic"] = { query = "@class.inner", desc = "Select inner part of a class region" },
+                        ["<Leader>ic"] = { query = "@class.inner", desc = "Select inner part of a class region" },
                         -- You can also use captures from other query groups like `locals.scm`
-                        ["su"] = { query = "@local.scope", query_group = "locals", desc = "Select language scope" },
+                        ["<Leader>su"] = { query = "@local.scope", query_group = "locals", desc = "Select language scope" },
                     },
                     -- You can choose the select mode (default is charwise 'v')
                     --
