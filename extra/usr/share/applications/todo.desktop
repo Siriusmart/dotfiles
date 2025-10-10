@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Todo
+GenericName=Todo List
+Exec=hyprctl dispatch exec '[float; size 40% 50%]' "kitty -e bash ~/.config/hypr/land/scripts/todo.sh"
+Type=Application
+Keywords=Todo;Productivity
+Icon=gnome-todo
+Categories=Utility;TextEditor;
+StartupNotify=false

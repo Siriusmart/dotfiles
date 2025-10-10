@@ -42,5 +42,23 @@ export let eggs = #{
 	},
 	btop: #{
 		targets: "~/.config/btop"
-	}
+	},
+	mako: #{
+		targets: "~/.config/mako"
+	},
+	"gtk-3.0": #{
+		targets: "~/.config/gtk-3.0"
+	},
+	"gtk-4.0": #{
+		targets: "~/.config/gtk-4.0"
+	},
+	"qt6ct": #{
+		targets: "~/.config/qt6ct"
+	},
+	"Kvantum": #{
+		targets: "~/.config/Kvantum"
+	},
+	"fastfetch": #{
+		targets: "~/.config/fastfetch"
+	},
 };

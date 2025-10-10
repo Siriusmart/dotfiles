@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Notes
+GenericName=Note stash
+Exec=hyprctl dispatch exec "kitty -d $HOME/Notes/ -e nvim index.md -c 'set wrap'"
+Type=Application
+Keywords=Notes
+Icon=rnote
+Categories=Utility;TextEditor;
+StartupNotify=false

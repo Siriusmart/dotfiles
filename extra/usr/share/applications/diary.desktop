@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Diary
+GenericName=Diary Entry
+Exec=hyprctl dispatch exec '[float; size 40% 50%]' "kitty -e bash ~/.config/hypr/land/scripts/today.sh"
+Type=Application
+Keywords=Diary;Journal
+Icon=bookworm
+Categories=Utility;TextEditor;
+StartupNotify=false

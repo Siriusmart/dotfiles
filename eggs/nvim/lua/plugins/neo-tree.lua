@@ -20,7 +20,7 @@ return {
         end)
 
         require("neo-tree").setup({
-            close_if_last_window = false,
+            close_if_last_window = true,
             window = {
                 mappings = {
                     ["oc"] = "noop",
