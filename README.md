@@ -28,6 +28,7 @@ Then
 - `wlogout`
 - `nvim` (lspconfig is set up for a bunch of lsps, such as `lua-language-server` and `clangd` (part of the `clang` package), `jdtls`, `texlab` which requires texlive, texlab and tectonic)
 - `eww` (depends on libdbusmenu-gtk3)
+- `dunst`
 
 ## Dependencies for a lot of stuff
 - `bc`
@@ -38,6 +39,7 @@ Then
 - `papirus-icon-theme`
 
 ## Recommended (without theme)
+- `cliphist`
 - `thunar`
 - `thunderbird`
 - `systemd-numlockontty` (ofc)

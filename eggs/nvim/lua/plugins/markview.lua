@@ -20,6 +20,10 @@ return {
 
                 linewise_hybrid_mode = true,
             },
+            html = { enable = false },
+            latex = { enable = true },
+            typst = { enable = false },
+            yaml = { enable = false }
         });
     end
 }

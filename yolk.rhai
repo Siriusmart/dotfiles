@@ -43,9 +43,6 @@ export let eggs = #{
 	btop: #{
 		targets: "~/.config/btop"
 	},
-	mako: #{
-		targets: "~/.config/mako"
-	},
 	"gtk-3.0": #{
 		targets: "~/.config/gtk-3.0"
 	},
@@ -60,5 +57,8 @@ export let eggs = #{
 	},
 	"fastfetch": #{
 		targets: "~/.config/fastfetch"
+	},
+	"dunst": #{
+		targets: "~/.config/dunst"
 	},
 };

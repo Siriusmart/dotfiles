@@ -1,0 +1,16 @@
+[global]
+    font = "JetBrainsMono Nerd Font 10"
+    sort = yes
+    shrink = yes
+    icon_theme = Papirus
+    enable_recursive_icon_lookup = true
+    corner_radius = 8
+    gap_size = 10
+    frame_width = 1
+    timeout = 7
+    width = 300
+
+    origin = top-right
+    offset = (25, 25)
+    background = "#05050840"
+    frame_color = "#8890D0"
