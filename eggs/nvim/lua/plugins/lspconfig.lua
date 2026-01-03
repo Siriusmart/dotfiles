@@ -14,6 +14,7 @@ return {
         vim.lsp.enable("cssls")
         vim.lsp.enable("tinymist")
         vim.lsp.enable("ocamllsp")
+        vim.lsp.enable("hls")
         vim.lsp.config("texlab", {
             settings = {
                 texlab = {

@@ -32,7 +32,7 @@ return {
             ['<C-i>'] = { 'select_prev', 'fallback' },
             ['<C-e>'] = { 'select_next', 'fallback' },
             ['<C-a>'] = { 'accept', 'fallback' },
-            ['<Tab>'] = { 'snippet_forward', 'fallback' },
+            -- ['<Tab>'] = { 'snippet_forward', 'fallback' },
             ['<C-space>'] = { 'show', 'show_documentation', 'hide_documentation' },
         },
 

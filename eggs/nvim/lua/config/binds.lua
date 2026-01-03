@@ -60,6 +60,7 @@ vim.keymap.set("n", "<C-s>", "<Cmd>w<CR>", { desc = "save buffer" })
 
 -- quick fix
 vim.keymap.set("n", "<Leader>y", "<Cmd>lua vim.lsp.buf.code_action({only = {'quickfix'}})<CR>", { desc = "show quick fixes" })
+vim.keymap.set("n", "<Leader>u", vim.lsp.buf.format)
 
 vim.keymap.set("n", "tn", "<C-W>h", { desc = "move split focus left" })
 vim.keymap.set("n", "te", "<C-W>j", { desc = "move split focus down" })

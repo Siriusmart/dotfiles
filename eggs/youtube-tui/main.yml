@@ -23,8 +23,8 @@ shell: sh
 legacy_input_handling: false
 env:
   save-path: ~/.local/share/youtube-tui/saved/
-  browser: xdg-open
+  terminal-emulator: konsole -e
   download-path: ~/Downloads/%(title)s-%(id)s.%(ext)s
-  video-player: mpv
+  browser: xdg-open
   youtube-downloader: yt-dlp
-  terminal-emulator: kitty -e
+  video-player: mpv
