@@ -5,10 +5,10 @@ Name=DaVinci Resolve
 GenericName=DaVinci Resolve
 Comment=Revolutionary new tools for editing, visual effects, color correction and professional audio post production, all in a single application!
 Path=/opt/resolve/
-Exec=/opt/resolve/bin/resolve %u
+Exec=env OCL_ICD_VENDORS=/etc/OpenCL/vendors/amdocl64.icd /opt/resolve/bin/resolve %u
 Terminal=false
-Icon=davinci-resolve
 MimeType=application/x-resolveproj;
+Icon=davinci-resolve
 StartupNotify=true
 Name[en_US]=DaVinci Resolve
 StartupWMClass=resolve
