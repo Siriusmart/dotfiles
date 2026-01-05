@@ -1,0 +1,51 @@
+configuration{
+    modi: ["drun", "window", "run", "filebrowser", "recursivebrowser"];
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    sidebar-mode: false;
+    display-drun: " ";
+    display-run: " ";
+    display-window: " ";
+    
+    //adding vim keybindings
+    kb-row-up: "Up,Control+i";
+    kb-row-left: "Left,Control+n";
+    kb-row-right: "Right,Control+o";
+    kb-row-down: "Down,Control+e";
+
+    kb-accept-entry: "Control+z,Control+y,Return,KP_Enter";
+
+    //fixing up
+    kb-remove-to-eol: "";
+    kb-move-char-back: "";
+    kb-remove-char-back: "BackSpace";
+    kb-move-char-forward: "Right";
+    kb-move-char-back: "Left";
+    kb-mode-complete: "";
+    kb-row-right: "";
+    kb-row-left: "";
+    kb-move-end: "";
+
+    drun {
+        fallback-icon: "/usr/share/icons/Papirus-Dark/128x128/apps/application-default-icon.svg";
+    }
+
+	filebrowser {
+		directory: "/home/siriusmart";
+		show-hidden: true;
+	}
+}
+//@theme "/usr/share/rofi/themes/tokyonight.rasi"
+
+//@theme "/usr/share/rofi/themes/tokyonight.rasi"
+
+//@theme "/usr/share/rofi/themes/tokyonight_big1.rasi"
+
+//@theme "/usr/share/rofi/themes/tokyonight.rasi"
+
+//@theme "/usr/share/rofi/themes/tokyonight_big2.rasi"
+
+@theme "/usr/share/rofi/themes/tokyonight.rasi"
