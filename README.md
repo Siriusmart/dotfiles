@@ -53,5 +53,6 @@ Then
 - `nmtui` (part of `networkmanager`)
 - `thunar` (with `gvfs` as dep)
 - `davinci-resolve` (with `pipewire-alsa` as dep)
+-   > Note, I am a AMD user, davinci-resolve runs only if rocm-opencl-runtime is installed but not opencl-mesa
 - `gparted` (with `hyprpolkitagent` and `xorg-host` as dep, for some reason)
 - `pavucontrol` (with `pipewire-pulse` as dep)
