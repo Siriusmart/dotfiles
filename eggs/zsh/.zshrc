@@ -77,3 +77,12 @@ eval "$(zoxide init --cmd cd zsh)"
 # This section can be safely removed at any time if needed.
 [[ ! -r '/home/siriusmart/.opam/opam-init/init.zsh' ]] || source '/home/siriusmart/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+# yay -C
+function yay() {
+    if [[ $1 == "-C" ]]; then
+        command yay -R $(command yay -Qdtq)
+    else
+        command yay "$@"
+    fi
+}
